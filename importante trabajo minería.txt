@@ -1,0 +1,29 @@
+importante trabajo minería
+
+en el primer hito: TIENE QUE ETAR BIEN EVALUADO
+METODOLOGIA DE VALIDACIÓN DE MODELOS TAMBIEN
+usar knn
+la evaluación importa
+metrica independiente del umbral
+metrica dependiente del umbral
+
+KNN ->
+imputación de datos
+si hay variables categóricas, pasar a numéricas
+
+DATASET --> imputador --> transformación de tipo --> (estandarización PRIMER HITO NO SE...) --> (seleccion, outliers, blablabla) --> KNN --> PREDICCCIONES
+	Vecino mas cercano	ord
+	media, moda... 		OHE
+	probar 			salida ....probar
+	
+HAY MUCHAS COMBINACIONES. COMO SOLUCIÓN: 
+
+fijar uno, probar los otros... ver cual es el mejor
+y cambiar.
+
+DEJAR FIJOS HIPERPARÁMETROS DE Knn.
+ir fijando ...
+HIPOTESIS DE POR QUE VA MEJOR O PEOR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! (importante)
+
+pipeline debe llevar el column transformer.
+
