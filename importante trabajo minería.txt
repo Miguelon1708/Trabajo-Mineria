@@ -27,3 +27,15 @@ HIPOTESIS DE POR QUE VA MEJOR O PEOR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 pipeline debe llevar el column transformer.
 
+
+
+
+HITO 1:
+- Problema elegido: ok
+- Determinar métrica de rendimiento y metodología de validación de modelos a emplear
+- Relación de las variables de entrada con la variable de salida
+- Pipeline básica: ColumnTransformer con:
+	- Imputación de valores perdidos
+	- Transformación de tipos
+	- (estandarizacion, seleccion y así van al SEGUNDO hito).... -> KNN
+
