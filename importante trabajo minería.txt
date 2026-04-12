@@ -38,8 +38,6 @@ HITO 1:
 	- Imputación de valores perdidos
 	- Transformación de tipos
 	- (estandarizacion, seleccion y así van al SEGUNDO hito).... -> KNN: ok
-	
-COMENTAR NOTEBOOK
 
 METRICAS INDEPENDIENTES DEL UMBRAL
 
@@ -54,3 +52,10 @@ METRICAS DEPENDIENTES DEL UMBRAL
 F1SCORE
 accuracy
 ...
+
+PENDIENTES: 
+- comentar notebook
+- cambiar metricas de evaluacion
+- meter la validacion (metodos)
+- pensar la imputación
+
