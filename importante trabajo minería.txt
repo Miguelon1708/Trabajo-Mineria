@@ -55,7 +55,10 @@ accuracy
 
 PENDIENTES: 
 - comentar notebook
-- cambiar metricas de evaluacion
 - meter la validacion (metodos)
-- pensar la imputación
+
+
+
+
+- pensar la imputación -> dejar como está, esperar a la selección de las variables
 
