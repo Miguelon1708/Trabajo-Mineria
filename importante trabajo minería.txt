@@ -60,5 +60,15 @@ PENDIENTES:
 
 
 
-- pensar la imputación -> dejar como está, esperar a la selección de las variables
+- pensar la imputación -> dejar como está, esperar a la selección de las variables:
+
+GRAFICO DEL HISTOGRAMA EN EL QUE SE MUESTRA LA EDAD DE LOS EJEMPLOS CON VALORES FALTANTES:
+
+gpa_missing = X.loc[np.isnan(X.grades_gpa), :]
+plt.hist(gpa_missing.age, label = "gpa_falta")
+
+wps_missing = X.loc[np.isnan(X.work_productivity_score), :]
+plt.hist(wps_missing.age, label = "wps_falta")
+
+plt.legend();
 
