@@ -72,3 +72,17 @@ plt.hist(wps_missing.age, label = "wps_falta")
 
 plt.legend();
 
+
+SEGUNDO HITO:
+
+- Estandarización: diferentes métodos -> robust scaler vs min_max
+- Selección de variables: algoritmos genéticos, ver análisis de correlaciones... etc
+- Generación de variables: PCA, ... ver más
+- Detección de outliers: IQR vs Media-desviación.
+
+Antes de normalizar, outliers...
+
+dataset -> imputacion -> transformación de tipos -> outliers -> estandarización -> nuevas/selección de variables (ver orden).
+Ver rendimientos y justificar.
+
+Idea: ya que lo más "ambiguo" son la selección / generación de variables y lo que más conocemos son estandarizaciones y deteccion de outliers, que cada uno haga 1 de ambos grupos. Ejemplo: selección + detección outliers, generacion + estandarización.
